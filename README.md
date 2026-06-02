@@ -32,7 +32,7 @@ package.json:
 "localDependencies": {
   "localPath": "./npm-deps",
   "originalDependencies": {
-    "wasabi-logger": "git+ssh://git@github.com:some-user/some-package.git#some-branch"
+    "some-package": "git+ssh://git@github.com:some-user/some-package.git#some-branch"
   }
 }
 ```

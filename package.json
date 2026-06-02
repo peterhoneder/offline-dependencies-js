@@ -1,6 +1,6 @@
 {
   "name": "offline-dependencies",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Allow local/offline copies of remote dependencies",
   "main": "./src/index.js",
   "bin": {
@@ -10,18 +10,21 @@
     "type": "git",
     "url": "https://github.com/peterhoneder/offline-dependencies-js.git"
   },
-  "scripts": {},
+  "scripts": {
+    "test": "node --test",
+    "lint": "eslint ."
+  },
   "author": "Peter Honeder",
   "license": "Apache-2.0",
   "devDependencies": {
-    "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.15.0",
-    "eslint-loader": "^4.0.2",
-    "eslint-plugin-jest": "^22.21.0",
-    "eslint-plugin-prettier": "^3.3.1",
-    "prettier": "^1.19.1"
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.4.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.6",
+    "globals": "^17.6.0",
+    "prettier": "^3.8.3"
   },
   "dependencies": {
-    "semver": "^6.3.0"
+    "semver": "^7.8.1"
   }
 }
